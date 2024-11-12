@@ -181,6 +181,9 @@ nav {
     border-radius: 0.5rem;
     border-bottom: 0.5rem solid #00bcd4;
   }
+  .home{
+    padding: 6rem;
+  }
 }
 
 @media (min-width: 996px) {
