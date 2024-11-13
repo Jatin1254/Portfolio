@@ -24,6 +24,11 @@ body {
   overflow-x: hidden;
 }
 
+html, body {
+  touch-action: manipulation; /* Prevent pinch-zoom */
+  overflow-x: hidden; /* Avoid accidental horizontal scrolls */
+}
+
 body.loading {
   overflow: hidden; /* Prevents background content from scrolling */
 }

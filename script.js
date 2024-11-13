@@ -10,6 +10,12 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(() => {
         document.querySelector(".loading-page").style.display = "none";
         document.querySelector("header").style.display = "flex";
+
+        // Add the loaded class to the home section to trigger the transition
+        document.querySelector(".home").classList.add("loaded");
+
+        // Programmatically trigger the Home button click for smooth scroll to the home section
+        document.querySelector('a[href="#home"]').click();
     }, 2000);
 
     // Ensure page starts at the top
